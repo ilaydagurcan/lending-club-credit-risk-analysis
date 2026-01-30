@@ -24,7 +24,7 @@ The workflow covers data cleaning, BigQuery modeling, interactive Looker Studio 
 
 ## Notebook (Colab / ML)
 
-[LendingClub_ML.ipynb](notebooks/LendingClub_ML.ipynb)
+[lendingclub_credit_risk_analysis.ipynb](notebooks/lendingclub_credit_risk_analysis.ipynb)
 
 
 ---

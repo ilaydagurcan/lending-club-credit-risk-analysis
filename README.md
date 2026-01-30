@@ -1,7 +1,7 @@
 # Lending Club Credit Risk Analysis — End-to-End Decision Support System
 
 This project delivers an end-to-end **Machine Learning + Business Intelligence** solution for credit risk management using **2.2M Lending Club loan records**.  
-The workflow covers **data cleaning, BigQuery modeling, interactive Looker Studio dashboards, and ML-based risk scoring** to support lending decisions.
+The workflow covers data cleaning, BigQuery modeling, interactive Looker Studio dashboards, and ML-based risk scoring to support lending decisions.
 
 ---
 
@@ -47,16 +47,19 @@ Built classification models to predict default risk with business-oriented ROI f
 ## Analytical Highlights
 
 ### Statistical Evidence & EDA
+
 - **Chi-Square Test:** Strong dependency between Loan Grade and repayment performance (p < 0.001)  
 - **T-Test:** Defaulted loans have higher average interest rates (15.72%) than paid loans (12.63%)  
 - **Pearson Correlation:** Strong inverse relationship between FICO score and interest rate (-0.40)  
 
 ### Machine Learning Pipeline
+
 - **Model:** XGBoost for non-linear financial patterns  
 - **Class Imbalance:** Cost-sensitive learning with higher weight on “Default”  
 - **Interpretability:** Feature importance (e.g., Grade A as a dominant signal)  
 
 ### Real-Time Decision Simulation
+
 - High-income but risky profiles can be rejected  
 - Lower-income but reliable profiles can be approved based on risk score  
 
@@ -72,28 +75,9 @@ Main reporting layers:
 - **Debt Health:** DTI analysis and impact on default probability  
 
 **Dashboard (View-only):**  
-https://lookerstudio.google.com/reporting/3e264e91-b533-4840-a1ef-cc72908f1906  
+https://lookerstudio.google.com/reporting/3e264e91-b533-4840-a1ef-cc72908f1906
 
 ---
 
 ## Repository Structure
 
-- **notebooks/** — Colab notebooks (data prep + ML)  
-- **sql/** — BigQuery SQL scripts  
-- **images/** — Dashboard and model visuals  
-
----
-
-## Key Recommendations
-
-- **Automatic Rejection / Collateral:** Grade F–G applications (default rate > 50%)  
-- **Dynamic Pricing:** Adjust interest rates using model-based risk scores  
-
----
-
-## Dashboard Preview
-
-![Portfolio](images/01_portfolio.png)  
-![Risk](images/02_risk.png)  
-![Segmentation](images/03_segmentation.png)  
-![DTI](images/04_dti.png)

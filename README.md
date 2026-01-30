@@ -82,3 +82,54 @@ https://lookerstudio.google.com/reporting/3e264e91-b533-4840-a1ef-cc72908f1906
 
 ## Repository Structure
 
+---
+
+## 📊 Dashboard Preview
+
+### 1. Customer Portfolio
+![Customer Portfolio](images/01_portfolio.png)
+
+### 2. Risk Analysis
+![Risk Analysis](images/02_risk.png)
+
+### 3. Risk Segmentation
+![Risk Segmentation](images/03_risk_segmentation.png)
+
+### 4. Financial Health & DTI
+![Financial Health](images/04_financial_health.png)
+
+### 5. Financial Health (Detail)
+![Financial Health Detail](images/05_financial_health_detail.png)
+
+### 6. Time Series & Trend Analysis
+![Trend Analysis](images/06_trend.png)
+
+### 7. Target Variable & Initial Model
+![Target Model](images/07_target_model.png)
+
+### 8. Decision Logic
+![Decision Logic](images/08_decision_logic.png)
+
+### 9. XGBoost Performance
+![XGBoost](images/09_xgboost.png)
+
+### 10. Feature Impact Analysis
+![Feature Impact](images/10_feature_impact.png)
+
+### 11. Correlation Analysis
+![Correlation](images/11_correlation.png)
+
+### 12. Statistical Test (T-Test)
+![T-Test](images/12_ttest.png)
+
+### 13. Statistical Test (Chi-Square)
+![Chi-Square](images/13_chisquare.png)
+
+### 14. Financial ROI Analysis
+![ROI](images/14_roi.png)
+
+### 15. Decision Simulation
+![Simulation](images/15_simulation.png)
+
+### 16. Final Report & Strategy
+![Final](images/16_final.png)
